@@ -19,20 +19,31 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-basis: 80px;
+  flex:-basis: 80px;
 }
 
 #section-1{
+  order: 1;
+  flex: 0.75
 }
 
 #section-2{
+  flex: 1.25;
+  order: 2;
 }
 
+
 #section-3{
+  order: 3;
+  flex: 1.75
 }
 
 #section-4{
+  order: 4;
+  Flex: 1.75
 }
 
 #section-5{
+  flex:0.75;
+  order: 0;
 }
